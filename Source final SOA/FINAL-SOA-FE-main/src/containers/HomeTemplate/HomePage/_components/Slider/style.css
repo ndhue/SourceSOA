@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap");
+
+.home-slider img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+.home-slider img:hover {
+  opacity: 0.85;
+}
+.slider-testimonial-img img {
+  padding: 1px;
+  height: 320px;
+  object-fit: cover;
+}
+.slider-testimonial-content h5 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #74767e;
+  padding-bottom: 16px;
+}
+.slider-testimonial-content i {
+  font-size: 30px;
+  line-height: 44px;
+  font-family: "DM Serif Display", serif;
+}
+.slider-testimonial-content span {
+  border-left: 1px solid #c5c6c9;
+  margin-left: 16px;
+}
+.slider-testimonial-content img {
+  padding-left: 5px;
+  display: inline-block;
+  height: 36px;
+}
+.slider-info {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  font-weight: 500;
+  top: 15px;
+  left: 15px;
+  z-index: 2;
+}
+.slider-item,
+.slider-testimonial-img {
+  cursor: pointer;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.slider-item:hover {
+  cursor: pointer;
+}
+.home-slider .slick-track > div {
+  padding: 0 5px;
+}
+.home-slider .slick-prev,
+.home-slider .slick-next,
+.home-testimonial-slider .slick-prev,
+.home-testimonial-slider .slick-next {
+  background-color: #fff;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  width: 48px;
+  height: 48px;
+  transform: translateY(-50%) translateX(5px);
+  text-align: center;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 15%);
+  border: 0;
+  font-size: 16px;
+  line-height: 100%;
+  border-radius: 50%;
+}
+.home-slider .slick-next {
+  transform: translateY(-50%) translateX(-5px);
+}
+.home-testimonial-slider .slick-prev,
+.home-testimonial-slider .slick-next{
+  transform: translateY(-50%);
+}
+
+.home-slider .slick-prev::after,
+.home-slider .slick-next::after,
+.home-testimonial-slider .slick-prev::after,
+.home-testimonial-slider .slick-next::after {
+  content: "";
+  display: inline-block;
+  background: url(https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/arrows.a8b0bad.svg)
+    no-repeat;
+  background-size: 16px 64px;
+  width: 16px;
+  height: 16px;
+  background-position: 0 -32px;
+  transform: translateY(-20px);
+}
+.home-slider .slick-next::after,
+.home-testimonial-slider .slick-next::after {
+  background-position: 0 -48px;
+}
+.orca-video {
+  width: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,89 @@
+footer{
+  color: #7a7d85;
+}
+footer p{
+  color: #212529;
+}
+footer li{
+  padding: 0.25rem 0;
+  color: #7a7d85;
+  list-style-type: none;
+}
+footer li:hover{
+  cursor: pointer;
+  text-decoration: underline !important;
+  background-color: transparent !important;
+}
+footer ul p:hover{
+  cursor: default;
+}
+.footer-icon{
+  line-height: 0;
+}
+.footer-icon i{
+  display: inline-block;
+  font-size: 1.3rem;
+  margin: 0 0.3rem;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.footer-icon i:hover{
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #efeff0;
+  transition: background-color 0.2s;
+}
+.footer-icon i::before{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+footer button{
+  padding: 0.5rem;
+  background-color: transparent !important;
+  border: none !important;
+  color: #7a7d85 !important;
+  margin: 0 0.3rem;
+}
+footer button:hover{
+  border-radius: 30px;
+  background-color: #efeff0 !important;
+  transition: background-color 0.2s;
+}
+
+.footer_widgets {
+  padding: 133px 0 78px;
+}
+
+.footer_contact_list a {
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.footer_contact_list p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: 400;
+}
+
+.footer_contact_list span {
+  font-size: 13px;
+  line-height: 30px;
+  color: #999999;
+  display: block;
+  font-weight: 400;
+}
+
+.footer_contact_list {
+  margin-bottom: 25px;
+}
+.footer_contact_list:last-child {
+  margin-bottom: 0;
+}

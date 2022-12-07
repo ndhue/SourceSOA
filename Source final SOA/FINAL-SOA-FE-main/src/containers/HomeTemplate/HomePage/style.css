@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Rochester&display=swap");
+
+.home-search {
+  max-width: 650px;
+  top: 50%;
+  left: 0;
+  padding: 0 15px;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.home-search p {
+  margin: 2rem 0;
+}
+.home-search input {
+  min-width: 400px;
+}
+.home-search button {
+  color: #fff;
+}
+.home-search span {
+  background-color: transparent;
+  line-height: 24px;
+  font-weight: 600;
+  color: #fff;
+  padding: 1px 12px 0;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  transition: all 0.2s ease-in-out;
+  margin: 0 0.5rem;
+}
+.home-search span:hover {
+  background-color: #fff;
+  color: #404145;
+  cursor: pointer;
+}
+.home-title {
+  font-size: 48px;
+  line-height: 56px;
+}
+.home-title i {
+  font-family: "Rochester", cursive;
+  font-size: 55px;
+}
+.home-partner {
+  background-color: #fafafa;
+  color: #b5b6ba;
+}
+.home-partner .container {
+  padding: 1rem 0;
+}
+.home-partner p,
+.home-partner img {
+  font-weight: 500;
+  padding: 0 2rem;
+}
+.home-page h2 {
+  margin: 0;
+  padding-bottom: 24px;
+  font-size: 32px;
+  line-height: 120%;
+  font-weight: 700;
+}
+.home-page h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.home-slider-container {
+  padding: 90px 0;
+}
+
+/* banner */
+.banner_text {
+  top: 66px;
+  left: 65px;
+  right: 18px;
+}
+.banner_text h3 {
+  font-size: 36px;
+  text-transform: uppercase;
+  line-height: 48px;
+  font-weight: 400;
+  margin-bottom: 17px;
+}
+.banner_text h3 span {
+  font-weight: 600;
+  color: #ff2f2f;
+}
+.banner_text p {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+.banner_text a.btn-primary {
+  margin-top: 198px;
+}
+.banner_text a.btn-primary:hover {
+  color: #000000;
+}
+.banner_text a.btn-primary::before {
+  background: #fff;
+}
+
+.banner_style2 {
+  padding: 0 55px;
+}
+
+.banner_tag {
+  position: absolute;
+  top: 60px;
+  left: 70px;
+}
+
+.banner_tag span {
+  font-size: 14px;
+  line-height: 24px;
+  color: #999999;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.single_banner img{
+  max-width: 100%;
+  height: auto;
+}
+.home-explore-item {
+  position: relative;
+  text-align: center;
+  padding: 30px;
+  width: 20%;
+}
+.home-explore-item img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 15px;
+}
+.home-explore-item a::after {
+  content: "";
+  position: absolute;
+  top: 75px;
+  right: 50%;
+  transform: translateX(50%);
+  padding: 0 0 8px;
+  width: 48px;
+  border-bottom: 2px solid #c5c6c9;
+  transition: all 0.2s ease-in-out;
+}
+.home-explore-item a:hover::after {
+  padding: 0 20px 8px;
+  border-color: #1dbf73;
+  width: 88px;
+}
+
+.btn-shop{
+  width: 120px;
+  background-color: #5e72e4;
+}

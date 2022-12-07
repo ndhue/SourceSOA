@@ -1,0 +1,6 @@
+const SIGN_UP_REQUEST = "@signUpSeller/SIGN_UP_REQUEST";
+const SIGN_UP_SUCCESS = "@signUpSeller/SIGN_UP_SUCCESS";
+const SIGN_UP_FAILED = "@signUpSeller/SIGN_UP_FAILED";
+const SIGN_UP_RESET = "@signUpSeller/SIGN_UP_RESET";
+
+export { SIGN_UP_REQUEST, SIGN_UP_SUCCESS, SIGN_UP_FAILED, SIGN_UP_RESET };

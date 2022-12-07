@@ -1,0 +1,542 @@
+#navbarNavShop li{
+    margin: 0 20px;
+  }
+  .section_title h2 {
+  font-size: 24px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #6a7964;
+  display: inline-block;
+  margin-bottom: 0;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .section_title.mb-60 {
+    margin-bottom: 40px;
+  }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section_title.mb-60 {
+    margin-bottom: 30px;
+  }
+  }
+  @media only screen and (max-width: 767px) {
+  .section_title.mb-60 {
+    margin-bottom: 30px;
+  }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .section_title.mb-130 {
+    margin-bottom: 60px;
+  }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section_title.mb-130 {
+    margin-bottom: 40px;
+  }
+  }
+  @media only screen and (max-width: 767px) {
+  .section_title.mb-130 {
+    margin-bottom: 30px;
+  }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section_title.mb-50 {
+    margin-bottom: 30px;
+  }
+  }
+  @media only screen and (max-width: 767px) {
+  .section_title.mb-50 {
+    margin-bottom: 30px;
+  }
+  }
+  /* 13. cart page css here */
+  .breadcrumbs_other {
+    padding: 85px 0 127px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .breadcrumbs_other {
+      padding: 36px 0 65px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .breadcrumbs_other {
+      padding: 26px 0 50px;
+    }
+  }
+  .breadcrumbs_other .breadcrumb_content {
+    margin-bottom: 0;
+  }
+  .breadcrumbs_other .breadcrumb_content h3 {
+    font-size: 48px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 36px;
+    margin-bottom: 0;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .breadcrumbs_other .breadcrumb_content h3 {
+      font-size: 35px;
+      line-height: 48px;
+      margin-top: 24px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .breadcrumbs_other .breadcrumb_content h3 {
+      font-size: 23px;
+      line-height: 35px;
+      margin-top: 20px;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .breadcrumbs_other .breadcrumb_content h3 {
+      font-size: 18px;
+      line-height: 31px;
+    }
+  }
+  
+  .shopping_cart_area {
+    margin-bottom: 177px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .shopping_cart_area {
+      margin-bottom: 80px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .shopping_cart_area {
+      margin-bottom: 60px;
+    }
+  }
+  
+  .cart_page_tabel {
+    margin-bottom: 30px;
+  }
+  @media only screen and (max-width: 575px) {
+    .cart_page_tabel {
+      margin-bottom: 18px;
+    }
+  }
+  .cart_page_tabel table {
+    width: 100%;
+  }
+  @media only screen and (max-width: 767px) {
+    .cart_page_tabel table thead {
+      display: none;
+    }
+  }
+  .cart_page_tabel table thead tr th {
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 15px;
+  }
+  @media only screen and (max-width: 575px) {
+    .cart_page_tabel table tbody tr {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-top: 20px;
+      margin-bottom: 14px;
+    }
+    .cart_page_tabel table tbody tr:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .cart_page_tabel table tbody tr td {
+    padding: 28px 0;
+  }
+  @media only screen and (max-width: 575px) {
+    .cart_page_tabel table tbody tr td {
+      padding: 10px 0;
+    }
+  }
+  
+  .cart_page_tabel table tbody tr td.product_quantity label {
+    font-weight: 600;
+    margin-right: 5px;
+  }
+  .cart_page_tabel table tbody tr td.product_quantity input {
+    width: 60px;
+    height: 40px;
+    padding: 0 5px 0 10px;
+    background: none;
+    border: 1px solid #ededed;
+  }
+  
+  @media only screen and (max-width: 575px) {
+    .cart_product_text {
+      width: 100%;
+    }
+  }
+  .cart_product_text h4 {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  @media only screen and (max-width: 767px) {
+    .cart_product_text h4 {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+  .cart_product_text ul li {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  @media only screen and (max-width: 767px) {
+    .cart_product_text ul li {
+      font-size: 13px;
+      line-height: 25px;
+    }
+  }
+  .cart_product_text ul li span {
+    color: #999999;
+  }
+  
+  .cart_product_price span {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  @media only screen and (max-width: 767px) {
+    .cart_product_price span {
+      font-size: 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 575px) {
+    .cart_product_remove {
+      text-align: center !important;
+    }
+  }
+  .cart_product_remove a {
+    font-size: 20px;
+  }
+  
+  .cart_page_button {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  @media only screen and (max-width: 575px) {
+    .cart_page_button {
+      flex-direction: column;
+    }
+  }
+  
+  .shopping_cart_btn a {
+    font-size: 14px;
+    background: #fff;
+    color: #000000;
+    padding: 0 37px;
+    height: 48px;
+    line-height: 46px;
+    margin-right: 27px;
+  }
+  .shopping_cart_btn a:hover {
+    border-color: #6a7964 !important;
+  }
+  .shopping_cart_btn a::before {
+    background: #6a7964;
+  }
+  @media only screen and (max-width: 767px) {
+    .shopping_cart_btn a {
+      font-size: 13px;
+      padding: 0 15px;
+      margin-right: 15px;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .shopping_cart_btn a {
+      margin-bottom: 15px;
+    }
+  }
+  .shopping_cart_btn button {
+    font-size: 14px;
+    background: #fff;
+    color: #000000;
+    padding: 0 37px;
+    height: 48px;
+    line-height: 46px;
+  }
+  .shopping_cart_btn button:hover {
+    border-color: #6a7964 !important;
+  }
+  .shopping_cart_btn button::before {
+    background: #6a7964;
+  }
+  @media only screen and (max-width: 767px) {
+    .shopping_cart_btn button {
+      font-size: 13px;
+      padding: 0 15px;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .shopping_cart_btn button {
+      margin-bottom: 15px;
+    }
+  }
+  
+  .shopping_continue_btn button {
+    font-size: 14px;
+    padding: 0 45px;
+    height: 50px;
+    line-height: 48px;
+  }
+  @media only screen and (max-width: 767px) {
+    .shopping_continue_btn button {
+      font-size: 13px;
+      padding: 0 17px;
+      height: 47px;
+      line-height: 46px;
+    }
+  }
+  
+  @media only screen and (max-width: 575px) {
+    .shopping_coupon_calculate.top {
+      margin-bottom: 25px;
+    }
+  }
+  .shopping_coupon_calculate h3 {
+    font-size: 24px;
+    line-height: 36px;
+    display: block;
+    position: relative;
+    padding-bottom: 16px;
+    margin-bottom: 43px;
+    font-weight: 400;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .shopping_coupon_calculate h3 {
+      font-size: 22px;
+      line-height: 34px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .shopping_coupon_calculate h3 {
+      font-size: 20px;
+      line-height: 33px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .shopping_coupon_calculate h3 {
+      font-size: 18px;
+      line-height: 25px;
+      padding-bottom: 16px;
+      margin-bottom: 30px;
+    }
+  }
+  .shopping_coupon_calculate h3::before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 2px;
+    background: #000000;
+    right: 0;
+    top: 40%;
+    transform: translatey(-50%);
+  }
+  .shopping_coupon_calculate .select_option {
+    width: 100%;
+    font-size: 14px;
+    color: #999999;
+    font-weight: 400;
+    height: 52px;
+    line-height: 50px;
+    border-radius: 0;
+    padding: 0 25px;
+    margin-bottom: 22px;
+  }
+  @media only screen and (max-width: 767px) {
+    .shopping_coupon_calculate .select_option {
+      height: 46px;
+      line-height: 44px;
+    }
+  }
+  .shopping_coupon_calculate input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #999999;
+  }
+  .shopping_coupon_calculate input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #999999;
+  }
+  .shopping_coupon_calculate input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #999999;
+  }
+  .shopping_coupon_calculate input:-moz-placeholder {
+    /* Firefox 18- */
+    color: #999999;
+  }
+  .shopping_coupon_calculate input {
+    width: 100%;
+    font-size: 14px;
+    color: #999999;
+    font-weight: 400;
+    height: 52px;
+    line-height: 50px;
+    border-radius: 0;
+    padding: 0 25px;
+    margin-bottom: 22px;
+  }
+  @media only screen and (max-width: 767px) {
+    .shopping_coupon_calculate input {
+      height: 46px;
+      line-height: 46px;
+    }
+  }
+  .shopping_coupon_calculate button {
+    font-size: 14px;
+    padding: 0 37px;
+    height: 54px;
+    line-height: 52px;
+    text-transform: uppercase;
+  }
+  @media only screen and (max-width: 767px) {
+    .shopping_coupon_calculate button {
+      font-size: 13px;
+      padding: 0 26px;
+      height: 43px;
+      line-height: 42px;
+    }
+  }
+  .shopping_coupon_calculate p {
+    font-size: 14px;
+    line-height: 24px;
+    font-style: italic;
+    color: #333333;
+    margin-bottom: 31px;
+    font-weight: 500;
+  }
+  
+  .grand_totall_area {
+    background: #eef2ec;
+    padding: 37px 42px 32px;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .grand_totall_area {
+      padding: 37px 30px 32px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .grand_totall_area {
+      margin-top: 30px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .grand_totall_area {
+      margin-top: 30px;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .grand_totall_area {
+      padding: 28px 25px 21px;
+    }
+  }
+  .grand_totall_area > a {
+    font-size: 14px;
+    line-height: 36px;
+    color: #999999;
+    display: inline-block;
+    margin-top: 12px;
+  }
+  
+  .grand_totall_inner {
+    padding-bottom: 27px;
+    margin-bottom: 30px;
+  }
+  @media only screen and (max-width: 575px) {
+    .grand_totall_inner {
+      padding-bottom: 20px;
+      margin-bottom: 23px;
+    }
+  }
+  
+  .proceed_checkout_btn a {
+    display: block;
+    font-size: 14px;
+    padding: 0 45px;
+    height: 54px;
+    line-height: 52px;
+    text-transform: uppercase;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .proceed_checkout_btn a {
+      padding: 0 30px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .proceed_checkout_btn a {
+      height: 47px;
+      line-height: 47px;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .proceed_checkout_btn a {
+      padding: 0 20px;
+    }
+  }
+  
+  .cart_subtotal p {
+    margin-bottom: 0;
+  }
+  
+  .cart_subtotal {
+    margin-bottom: 16px;
+  }
+  .cart_subtotal p {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  @media only screen and (max-width: 575px) {
+    .cart_subtotal p {
+      font-size: 13px;
+    }
+  }
+  .cart_subtotal span {
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+    font-weight: 600;
+  }
+  @media only screen and (max-width: 575px) {
+    .cart_subtotal span {
+      font-size: 13px;
+    }
+  }
+  
+  .cart_grandtotal p {
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  @media only screen and (max-width: 575px) {
+    .cart_grandtotal p {
+      font-size: 15px;
+      line-height: 20px;
+    }
+  }
+  .cart_grandtotal span {
+    font-size: 18px;
+    line-height: 30px;
+    color: #ff0000;
+    font-weight: 600;
+  }
+  @media only screen and (max-width: 575px) {
+    .cart_grandtotal span {
+      font-size: 15px;
+      line-height: 20px;
+    }
+  }

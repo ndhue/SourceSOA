@@ -1,0 +1,39 @@
+.user-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+.btn-search, .btn-edit{
+    border: 1px solid #497282;
+}
+.btn-search:hover, .btn-edit:hover{
+    color: white;
+    transition: .3s;
+    background-color: #497282;
+}
+.btn-add-user{
+    padding: 5px 15px;
+    color: white;
+    background-color: #497282;
+    border: transparent;
+}
+.btn-add-user:hover{
+    background-color: #3e5e6a;
+    color:#fff;
+    transition: .5s;
+}
+.btn-del{
+    border: 1px solid red;
+    color: red;
+    font-size: 24px;
+    padding: 2px 8px;
+    line-height: 30px;
+}
+.btn-del:hover{
+    transition: .3s;
+    background-color: red;
+    color: #fff;
+}
+
+form .alert-danger {
+    padding: 5px 10px;
+}

@@ -1,0 +1,19 @@
+.home-carousel {
+  top: 0;
+  left: 0;
+  height: 680px;
+  width: 100%;
+  z-index: -1;
+}
+.home-carousel img {
+  height: 680px;
+  width: 100%;
+  object-fit: cover;
+}
+.home-carousel-info {
+  color: #fff;
+  font-size: 1.1rem;
+  position: absolute;
+  right: 70px;
+  bottom: 30px;
+}
