@@ -61,12 +61,41 @@ app.post('/login', async (req, res) => {
     if (!user) {
         return res.status(404).json({ "message": "username hoặc password sai" });
     }
-
-    bcrypt.compare(password, user["password"], async function (err, result) {
-        if (result) {
-            return res.status(200).json(user);
-        }
+    bcrypt.genSalt(10, function (err, salt) {
+        bcrypt.compare(password, user["password"], async function (err, result) {
+            if (result) {
+                return res.status(200).json(user);
+            }
+        });
     });
+    
+    
+})
+
+app.post('/register', async (req, res) => {
+    var username = req.body.username;
+    var fullname = req.body.fullname;
+    var email = req.body.email;
+    var password = req.body.password;
+    var phone = req.body.phone;
+    var gender = req.body.gender;
+    var address = req.body.address;
+    var role = "Customer";
+
+    bcrypt.genSalt(10, function(err, salt) {
+        if (err) 
+            return res.status(500).json({ "message": "Thêm người dùng thất bại" });
+
+        bcrypt.hash(password, salt, async function (err, hashed) {
+            var insertUserResult = await User.insertNewUser(email, username, hashed, fullname, phone, role, gender, address);
+            if (insertUserResult) {
+                return res.status(200).json({ "message": "Đăng ký người dùng thành công" });
+            }
+
+            return res.status(500).json({ "message": "Đăng ký người dùng thất bại" });
+        });
+    });
+    
     
 })
 
