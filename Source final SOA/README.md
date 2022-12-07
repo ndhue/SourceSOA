@@ -18,5 +18,5 @@ Thông tin đăng nhập user:
   - password: 123456
   
 Thông tin đăng nhập seller:
- - username: hue
+ - username: huengo
  - password: 123456
